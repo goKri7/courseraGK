@@ -1,0 +1,71 @@
+/*external stylesheet for the assignment for module 2 */
+/* parts of this file come from examples provided as course materials*/
+*  {  box-sizing: border-box; }
+h1{ 
+		margin-bottom: 25px;
+		text-align: center;
+		Font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+		font-weight: bold;
+		color: green;
+	}
+
+ div.contain{
+	  position: relative;
+	  border: 1px solid black;
+	  background-color: #707020;
+	  width: 98%;
+	  height: 150px;
+	  margin-top: 20px;
+	  margin-right:5px;
+	  margin-left:5px;
+	  font-family: Helvetica;
+	  color: white;
+	}
+	p.heading{
+		color: #707020;
+		background: transparent;
+		width: 98%;
+		height: 5px;
+	}
+	p.details{
+		background: transparent;
+		width: 98%;
+		height: 145px;
+	}
+
+/* Simple Responsive Framework. */
+.row {  width: 100%; }
+
+p#Chicken{
+	position: absolute;
+	top: -15px;
+	right: 0px;
+	height: 25px;
+	width: 100px;
+	background: red;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+}
+p#Beef{
+	position: absolute;
+	top: -15px;
+	right:0px;
+	height: 25px;
+	width: 100px;
+	background: maroon;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+}
+p#Sushi{
+	position: absolute;
+	top: -15px;
+	right:0px;
+	height: 25px;
+	width: 100px;
+	background: orange;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+}
